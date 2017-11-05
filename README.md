@@ -1,4 +1,5 @@
 # ProgApps-Lec-2017
-Add your contributions here for our progapps lec artifacts
+PLEAAAASE BASHAHIN NYO TO
 notes : 
-pa palit ng double sa student.java para pag nag divide double din result ty.
+Add your contributions here for our progapps lec artifacts
+LAGYAN NYO NG COMMENT MAHABA MAN O HINDI YUNG IIBAHIN NYO PARA SA DEMO PARA HINDI MAGULO KASI BAKA MAMAYA HINDI GUMANA TY PACOMMENT NARIN NG PANGALAN LABYU GUYS KISS KITA CHAZZ LATER.
