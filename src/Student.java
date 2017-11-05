@@ -1,7 +1,10 @@
+import java.util.ArrayList;
+
 public class Student {
     public String Id, first, last, course;
     public double grade;
     public int year;
+    public ArrayList<Activity> activities = new ArrayList();
 
     public Student(String Id,String first,String last,double grade,String course,int year){
         this.Id = Id;
@@ -10,6 +13,14 @@ public class Student {
         this.grade = grade;
         this.course = course;
         this.year = year;
+    }
+
+    public ArrayList<Activity> getActivities() {
+        return activities;
+    }
+
+    public void setActivity(int a,Activity b) {
+        activities.add(a,b);
     }
 
     public String getFirst(){
