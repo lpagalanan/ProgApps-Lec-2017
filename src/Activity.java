@@ -1,30 +1,43 @@
 public class Activity {
-    public String type;
+    public String name;
     public double score;
+    public double overall;
 
-    public Activity(String a,double b){
-        type = a;
+    public Activity(String x,double b,double c){
+        overall = c;
+        name = x;
         score = b;
     }
 
+    public double getOverall() {
+        return overall;
+    }
+
+    public void setOverall(double overall) {
+        this.overall = overall;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public double getScore() {
+        
         return score;
     }
 
-    public String getType() {
-        return type;
-    }
-
     public void setScore(double score) {
+        
         this.score = score;
-    }
-
-    public void setType(String type) {
-        this.type = type;
     }
 
     @Override
     public String toString() {
+        
         return super.toString();
     }
 
