@@ -10,10 +10,9 @@ public class Record {
     }
 
     public void run() throws Exception{
+        Menu a = new Menu();
         studs = Init();
-        for (int x=0; x<studs.size(); x++) {
-            System.out.println(studs.get(x));
-        }
+        a.setVisible(true);
     }
 
     public ArrayList Init()throws IOException{
@@ -35,11 +34,6 @@ public class Record {
         return b;
     }
     
-    public void showStudent() {
-        for (int x=0; x<studs.size(); x++) {
-            System.out.println(studs.get(x));
-        }
-    }
     
     public void showRecord() {
         for (int x=0; x<studs.size(); x++) {
