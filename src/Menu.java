@@ -18,7 +18,7 @@ public class Menu extends JFrame {
     }
 
     private void button1ActionPerformed(ActionEvent e) {
-        Show1 a = new Show1();
+        Show1 a = new Show();
         a.setVisible(true);
     }
 
