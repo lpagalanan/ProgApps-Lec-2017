@@ -5,17 +5,19 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Record {
-    ArrayList<Student> studs= new ArrayList();
+    ArrayList studs= new ArrayList();
     public Record(){
     }
 
     public void run() throws Exception{
         studs = Init();
-
+        for (int x=0; x<studs.size(); x++) {
+            System.out.println(studs.get(x));
+        }
     }
 
-    public ArrayList<Student> Init()throws IOException{
-        ArrayList<Student> b= new ArrayList();
+    public ArrayList Init()throws IOException{
+        ArrayList b= new ArrayList();
         FileReader fileReader = new FileReader("Data.txt");
         BufferedReader bufferedReader = new BufferedReader(fileReader);
         for(int x = 0; bufferedReader.ready() == false; x++){
@@ -38,7 +40,13 @@ public class Record {
             System.out.println(studs.get(x));
         }
     }
-
+    
+    public void showRecord() {
+        for (int x=0; x<studs.size(); x++) {
+            System.out.println(studs.get(x));
+        }
+    }
+    
     public static void main(String[] args)throws Exception{
         Record a = new Record();
         a.run();
