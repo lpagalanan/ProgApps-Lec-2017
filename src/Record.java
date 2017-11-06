@@ -32,6 +32,12 @@ public class Record {
         }
         return b;
     }
+    
+    public void showStudent() {
+        for (int x=0; x<studs.size(); x++) {
+            System.out.println(studs.get(x));
+        }
+    }
 
     public static void main(String[] args)throws Exception{
         Record a = new Record();
